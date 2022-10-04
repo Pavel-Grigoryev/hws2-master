@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --palette-black: #000000;
+    --palette-white: #FFFFFF;
+    --palette-true-blue: #0066CC;
+    --palette-light-silver: #D9D9D9;
+    --palette-ghost-white: #F5F7FB;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--palette-white);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--palette-black);
+}
+
+pre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
