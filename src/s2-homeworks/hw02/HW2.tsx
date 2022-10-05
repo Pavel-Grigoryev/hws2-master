@@ -36,7 +36,6 @@ const defaultAffairs: Array<AffairType> = [ // need to fix any
 
 // pure helper functions
 export const filterAffairs = (affairs: AffairType[], filter: FilterType): AffairType[] => { // need to fix any
-    debugger
      if ( filter === 'high') {
          return affairs.filter(el => el.priority === 'high');
      } else if ( filter === 'low') {
