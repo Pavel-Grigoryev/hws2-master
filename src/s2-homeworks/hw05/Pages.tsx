@@ -12,8 +12,6 @@ export const PATH = {
 }
 
 function Pages() {
-    // @ts-ignore
-    // @ts-ignore
     return (
         <div>
             {/*Routes выбирает первый подходящий роут*/}
