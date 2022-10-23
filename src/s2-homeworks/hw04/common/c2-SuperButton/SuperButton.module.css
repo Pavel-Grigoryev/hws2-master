@@ -1,6 +1,6 @@
 .button {
     padding: 5px 24px;
-    border: none;
+    border: 1px solid var(--palette-true-blue);
     border-radius: 3px;
     font-weight: 600;
     font-size: 14px;
@@ -11,6 +11,7 @@
 
 .disabled {
     background-color: var(--palette-cool-black);
+    border: 1px solid var(--palette-cool-black);
     color: var(--palette-white);
     opacity: 0.5;
     cursor: auto;
@@ -31,6 +32,7 @@
 .red {
     background-color: var(--palette-cardinal);
     color: var(--palette-white);
+    border: 1px solid var(--palette-cardinal);
 }
 
 .default:hover {
