@@ -1,2 +1,12 @@
 .container {
+    display: flex;
+    height: 330px;
+}
+
+.select {
+    margin-right: 120px;
+}
+
+.radio {
+
 }
