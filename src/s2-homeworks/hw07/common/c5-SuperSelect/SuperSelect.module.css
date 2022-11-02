@@ -17,6 +17,7 @@
     transition: transform .2s ease-in;
 }
 
+
 .selectWrapper.active:before {
     content:'';
     display: block;
