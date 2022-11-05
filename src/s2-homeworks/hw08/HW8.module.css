@@ -4,20 +4,42 @@
 .item:last-of-type {
 }
 
-.users {
-}
-
 .buttonsContainer {
+    margin: 11px 0 18px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 12px;
 }
 
 .container {
+    max-width: 605px;
 }
 
+.users {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
 .thead {
+    padding: 11px 0 9px;
+    background-color: var(--palette-platinum);
+    font-weight: 600;
+}
+
+.thead .nameCol {
+    padding: 11px 0 9px 17px;
 }
 
 .nameCol {
+    width: 48%;
+    padding: 16px 0 16px 17px;
+    border-bottom: 1px solid var(--palette-platinum);
 }
 
 .ageCol {
+    font-weight: 600;
+    border-bottom: 1px solid var(--palette-platinum);
 }
