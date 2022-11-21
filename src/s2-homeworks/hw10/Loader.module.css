@@ -1,3 +1,16 @@
 .loader {
-    /*свг и/или анимация*/
+   position: absolute;
+   top: -10px;
+   left: 0;
+   animation: rotateLoading 1.5s infinite normal;
 }
+
+@keyframes rotateLoading {
+    0% {
+        transform: translate(0, -10px) rotate(0deg);
+    }
+    100% {
+        transform: translate(0, -10px) rotate(360deg);
+    }
+}
+
