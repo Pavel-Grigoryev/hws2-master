@@ -1,8 +1,31 @@
 .container {
+    margin: 45px 0 165px;
+}
+
+.container .wrapper:first-child {
+    margin-bottom: 32px;
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .number {
+    margin-right: 20px;
+    font-weight: 600;
 }
+
+.numberLast {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+
+
+.slider {
+    width: 147px;
+    display: flex;
+    align-items: center;
+}
+
