@@ -36,13 +36,13 @@ html {
 }
 
 body {
-    background-color: var(--palette-white);
+    background-color: inherit;
     margin: 0;
     box-sizing: border-box;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    color: var(--palette-black);
+    color: inherit;
 }
 
 pre {

@@ -18,6 +18,19 @@ html {
     color: var(--color);
 }
 
-.select {
+.title {
+    margin-top: 9px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 17px;
+}
 
+.selectBlock {
+    width: 164px;
+    margin-bottom: 212px;
+}
+
+.select {
+    width: 171px;
+    height: 36px;
 }
