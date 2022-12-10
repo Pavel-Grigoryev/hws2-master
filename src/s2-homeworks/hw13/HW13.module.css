@@ -7,7 +7,6 @@
 
 .responseContainer {
     display: flex;
-    flex-wrap: wrap;
    }
 
 .imageContainer {
