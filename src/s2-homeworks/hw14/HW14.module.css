@@ -2,6 +2,12 @@
 
 }
 
-.loading {
+.inputContainer {
+    width: 468px;
+    display: flex;
+    flex-direction: column;
+}
 
+.loading {
+    align-self: flex-end;
 }
