@@ -6,6 +6,7 @@
     padding: 24px 0 32px;
     border-top: 1px solid var(--palette-light-silver);
     border-bottom: 1px solid var(--palette-light-silver);
+    position: relative;
 }
 
 .hwTitle {

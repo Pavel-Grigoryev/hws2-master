@@ -1,8 +1,7 @@
 .loader {
-   position: absolute;
-   top: -10px;
-   left: 0;
-   animation: rotateLoading 1.5s infinite normal;
+    width: 90px;
+    height: 90px;
+    animation: rotateLoading 1.5s infinite normal;
 }
 
 @keyframes rotateLoading {
