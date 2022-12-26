@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hws2-master/static/css/main.0bfb18c1.css",
-    "main.js": "/hws2-master/static/js/main.488d2f44.js",
+    "main.js": "/hws2-master/static/js/main.b344bfe0.js",
     "static/js/787.66cb4309.chunk.js": "/hws2-master/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hws2-master/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/hws2-master/static/media/200.2b4de1542921864a6ecb8c3301ea4670.svg",
@@ -19,11 +19,11 @@
     "static/media/down.svg": "/hws2-master/static/media/down.84608c11f30550bbfe9dc58dff6d4ddb.svg",
     "static/media/up.svg": "/hws2-master/static/media/up.3f53e1ada336d4a2b89dabfb878c65f9.svg",
     "main.0bfb18c1.css.map": "/hws2-master/static/css/main.0bfb18c1.css.map",
-    "main.488d2f44.js.map": "/hws2-master/static/js/main.488d2f44.js.map",
+    "main.b344bfe0.js.map": "/hws2-master/static/js/main.b344bfe0.js.map",
     "787.66cb4309.chunk.js.map": "/hws2-master/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bfb18c1.css",
-    "static/js/main.488d2f44.js"
+    "static/js/main.b344bfe0.js"
   ]
 }
