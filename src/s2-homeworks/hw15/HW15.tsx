@@ -69,7 +69,7 @@ export const HW15 = () => {
         setPage(newPage);
         setCount(newCount);
         sendQuery({page: newPage, count: newCount, sort})
-        setSearchParams({page: String(newPage), count: String(newCount), sort})
+        setSearchParams({page: String(newPage), count: String(newCount)})
 
         //
     }
