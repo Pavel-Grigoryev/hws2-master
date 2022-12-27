@@ -6,6 +6,7 @@ import SuperPagination from './common/c9-SuperPagination/SuperPagination'
 import {useSearchParams} from 'react-router-dom'
 import SuperSort from './common/c10-SuperSort/SuperSort'
 import {Loader} from "../hw10/Loader";
+import './HW15.css';
 
 /*
 * 1 - дописать SuperPagination
@@ -68,7 +69,7 @@ export const HW15 = () => {
         setPage(newPage);
         setCount(newCount);
         sendQuery({page: newPage, count: newCount, sort})
-        setSearchParams({page: String(newPage), count: String(newCount)})
+        setSearchParams({page: String(newPage), count: String(newCount), sort})
 
         //
     }
@@ -109,26 +110,31 @@ export const HW15 = () => {
                     <Loader/>
                 </div>}
 
-                <SuperPagination
-                    page={page}
-                    itemsCountForPage={count}
-                    totalCount={totalCount}
-                    onChange={onChangePagination}
-                />
+                <div className={s.hw15Cont}>
+                    <SuperPagination
+                        page={page}
+                        itemsCountForPage={count}
+                        totalCount={totalCount}
+                        onChange={onChangePagination}
+                    />
 
-                <div className={s.rowHeader}>
-                    <div className={s.techHeader}>
-                        tech
-                        <SuperSort sort={sort} value={'tech'} onChange={onChangeSort}/>
-                    </div>
+                    <div className={s.rowHeader}>
+                        <div className={s.techHeader}>
+                            tech
+                            <div className={s.sortArrowBlock}>
+                                <SuperSort sort={sort} value={'tech'} onChange={onChangeSort}/>
+                            </div>
+                        </div>
 
-                    <div className={s.developerHeader}>
-                        developer
-                        <SuperSort sort={sort} value={'developer'} onChange={onChangeSort}/>
+                        <div className={s.developerHeader}>
+                            developer
+                            <div className={s.sortArrowBlock}>
+                                <SuperSort sort={sort} value={'developer'} onChange={onChangeSort}/>
+                            </div>
+                        </div>
                     </div>
+                    {mappedTechs}
                 </div>
-
-                {mappedTechs}
             </div>
         </div>
     )

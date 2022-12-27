@@ -19,7 +19,7 @@ export type SuperSortPropsType = {
 export const pureChange = (sort: string, down: string, up: string) => {
     // пишет студент,
     //sort: (click) => down (click) => up (click) => '' (click) => down ...
-
+    console.log(sort)
 
     switch (sort[0]) {
         case undefined:

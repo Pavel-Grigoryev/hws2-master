@@ -1,25 +1,49 @@
-.tech {
-    width: 50vw;
+.hw15Cont {
+    margin-top: 12px;
+    width: 606px;
 }
 
-.developer {
+.tech {
+    margin: 0 0 12px 17px;
+    width: 46%;
+}
 
+
+.developer {
+    text-transform: capitalize;
 }
 
 .techHeader {
-    width: 50vw;
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
 }
 
 .developerHeader {
-
+    display: flex;
+    align-items: center;
+    margin-left: 235px;
 }
 
 .row {
+    margin-top: 12px;
     display: flex;
+    border-bottom: 1px solid var(--palette-platinum);
 }
 
 .rowHeader {
+    margin: 36px 0 12px;
     display: flex;
+    align-items: center;
+    height: 36px;
+    background-color: var(--palette-platinum);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.sortArrowBlock {
+    margin-left: 5px;
 }
 
 .loading {
@@ -34,3 +58,5 @@
     justify-content: center;
     align-items: center;
 }
+
+
